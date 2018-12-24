@@ -1,0 +1,162 @@
+nav li {
+  padding: 10px;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav .black-item {
+  color: black !important;
+}
+
+nav .blue-item {
+  color: #31b7d4 !important;
+}
+
+nav .button-div {
+  margin-right: 10px;
+  border: none !important;
+}
+
+nav .button-div button {
+  background: white;
+  color: black;
+  height: 50px;
+  width: 220px;
+  border-radius: 25px;
+  letter-spacing: 5px;
+  border: 1.5px solid #dad4d4;
+}
+
+.home {
+  background-image: url("images/map.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home .img-div {
+  position: relative;
+  top: 50px;
+  right: 150px;
+}
+
+.home .card .card-img-top {
+  background-image: url("images/office.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.home .card .card-img-top .card-title {
+  color: white;
+  font-size: 2em;
+}
+
+.home .card .card-img-top .card-title .span-2 {
+  font-weight: bold;
+}
+
+.home .card .card-img-top .card-title .span-1 {
+  font-weight: normal;
+}
+
+.home .card .card-body .card-subtitle {
+  font-size: 20px;
+}
+
+.home .card .card-body .card-subtitle i {
+  color: #31b7d4;
+  padding: 10px;
+}
+
+.home .card .card-body .grey-text {
+  color: #a3b8c4;
+  margin-left: 32px;
+  font-size: 16px;
+}
+
+.home .card .card-body p {
+  color: #a3b8c4;
+}
+
+footer {
+  background: #233742;
+  color: white;
+}
+
+footer .div-1 {
+  width: 300px;
+  padding: 10px;
+}
+
+footer .div-1 img {
+  height: 70px;
+  padding: 10px;
+}
+
+footer .div-2 span {
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+
+footer .div-3 span {
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+
+footer .div-4 i {
+  font-size: 40px;
+  padding: 10px;
+}
+
+footer hr {
+  border: white;
+}
+
+footer .footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-bottom span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-bottom span P {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=task.css.map */
